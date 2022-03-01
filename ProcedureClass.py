@@ -24,10 +24,10 @@ class Procedure:
 
 
     def print_Procedure(self):
-        print("Name of the procedure:", self.__pname)
-        print("Date of the procedure:", self.__pdate)
-        print("Name of the practitioner who performed the procedure:", self.__practitioner_name)
-        print("Charges for the procedure:", self.__charges)
-        print("patient ID:", self.__p_id)
+        print("Procedure:", self.__pname)
+        print("Date:", self.__pdate)
+        print("Practitioner:", self.__practitioner_name)
+        print("Charges: $", self.__charges)
+        #print("Patient ID:", self.__p_id)
         
 
