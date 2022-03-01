@@ -27,7 +27,7 @@ class Procedure:
         print("Procedure:", self.__pname)
         print("Date:", self.__pdate)
         print("Practitioner:", self.__practitioner_name)
-        print("Charges: $", self.__charges)
+        print("Charge: $", format(self.__charges, ',.2f'))
         #print("Patient ID:", self.__p_id)
         
 
